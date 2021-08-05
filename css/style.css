@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif,'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+#main{
+    background-color: #f9f9f9;
+}
+#title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.date{
+    font-size: 1.1rem;
+    text-align: center;
+}
+#img-div{
+    max-height: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#img-caption{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+#tribute-info{
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.7rem;
+   
+}
+#tribute-info h2{
+    text-align: center;
+    margin: 2rem auto;
+}
+#tribute-info ul li{
+    margin: 1.1rem 0 ;
+}
+#tribute-info ul{
+    margin: 2.5rem 0;
+}
+.seeMore{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+
+}
